@@ -4,9 +4,10 @@ class Instrumento:
         ins=[for i in ["piano", "guitarra", "bateria", "flauta", "saxofon", "acordeon", "violin", "trombon", "violonchelo", "trompeta"]]  
         random.shuffle(ins)      
 class Piano:
-    def piano(afine):
-        tof=[True, False]
+    def piano(afine, toca):
+        tof=["toca", "afina"]
         afine=random.choice(tof)
+        if afine == "toca":
 class Guitarra:
 class Bateria:
 class Flauta:
